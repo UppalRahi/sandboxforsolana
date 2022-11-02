@@ -8,4 +8,4 @@ function stringPallindrome(string){
 return true
 }
 
-console.log(stringPallindrome("TetfheT"))
+console.log(stringPallindrome(process.argv[2]));
